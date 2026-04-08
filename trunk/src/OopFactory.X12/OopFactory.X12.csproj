@@ -7,6 +7,18 @@
     <SccAuxPath>https://tfs.codeplex.com/tfs/tfs11</SccAuxPath>
     <SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+
+    <PackageId>EHP.X12.Parser</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>OopFactory (original), E-Health Partners, Inc (modifications)</Authors>
+    <Company>E-Health Partners, Inc</Company>
+    <Description>Fork of OopFactory.X12, updated for .NET 8 compatibility. Original code by
+      OopFactory. Licensed under CDDL.</Description>
+    <PackageLicenseExpression>CDDL-1.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/KeyMarkInc/OopFactory.X12</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/KeyMarkInc/OopFactory.X12</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DocumentationFile>bin\Release\OopFactory.X12.XML</DocumentationFile>

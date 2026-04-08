@@ -1,12 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <OutputType>Library</OutputType>
     <SccProjectName>SAK</SccProjectName>
     <SccLocalPath>SAK</SccLocalPath>
     <SccAuxPath>SAK</SccAuxPath>
     <SccProvider>SAK</SccProvider>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+
+    <PackageId>EHP.X12.Validation</PackageId> <!-- Change [Something] to match this project -->
+    <Version>1.0.0</Version>
+    <Authors>OopFactory, KeyMark Inc., E-Health Partners, Inc.</Authors>
+    <Company>E-Health Partners, Inc.</Company>
+    <Description>Fork of OopFactory.X12. Updated for .NET 8.</Description>
+    <PackageLicenseExpression>CDDL-1.0</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/KeyMarkInc/OopFactory.X12</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/KeyMarkInc/OopFactory.X12</PackageProjectUrl>
+    <Copyright>Copyright © Original authors. Fork maintained by E-Health Partners, Inc.</Copyright>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\OopFactory.X12\OopFactory.X12.csproj" />
@@ -14,7 +24,8 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
     <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
-    <PackageReference Include="Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers" Version="0.3.310801">
+    <PackageReference Include="Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers"
+      Version="0.3.310801">
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
   </ItemGroup>
